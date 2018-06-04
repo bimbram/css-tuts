@@ -64,11 +64,20 @@ body {
 }
 
 .main-nav__items {
+  margin: 0;
   padding: 0;
   list-style: none;
   width: 100%;
 }
 
-.main-nav__items a {
+.main-nav__item a {
   text-decoration: none;
+}
+
+.main-nav__item a:hover {
+  color: white;
+}
+
+.main-nav__item a:active {
+  color: white;
 }
