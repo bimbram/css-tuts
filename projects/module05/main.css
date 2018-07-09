@@ -171,7 +171,9 @@ body {
   border-color: white;
 }
 
-
+.button:focus {
+  outline: none;
+}
 
 
 
